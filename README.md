@@ -7,6 +7,10 @@ This is a Dockerized version of my Boolean algebra program, BOOLEAN1.COM, which 
 
 The boolean algebra program essentially is able to accept an interactive input of a boolean equation like A.B + B.C and then display its truth tables or minterm canonical form . The top - (bar) sign for a boolean variable signifying not is replaced by a back quote ` so mentioning A` will mean "not A"
 
+After launching the boolean algebra program pressing option 1 will allow entering a boolean equation and then pressing enter will display the truth table. Pressing option 2 will allow entering a boolean equation and then pressing enter will display the minter canonical form of the same boolean equation.
+
+
+
 ## Running instance on the web
 
 This is the running instance available on the web to try out my boolean algebra equation solver application -
