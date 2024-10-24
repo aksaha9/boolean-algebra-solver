@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boolean Algebra Software</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Marquee styles */
+        .marquee {
+            width: 100%; /* Adjust as needed */
+            overflow: hidden;
+            white-space: nowrap; /* Keep text on a single line */
+        }
+
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%; /* Start offscreen */
+            animation: marquee 30s linear infinite; /* Adjust duration as needed */
+            color: #ff0000; /* Vibrant red color */
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Boolean Algebra Software - developed by - Ashish Kumar Saha</h1>
+    <p>
+        Thank you for visiting this page to try out this software.
+    </p>
+    <div class="marquee">
+        <span>
+            This Boolean Algebra software was created long back in 1991 by me - Ashish Kumar Saha - a student of 1992 pass out batch of Birla Vidya Mandir, Nainital, India 
+            using Pascal on MS-DOS. It takes any Boolean equation and is able to output the Truth table and minterm canonical forms. 
+            As my program is a 16-bit legacy DOS application, I have used Emscripten-compiled DOSBox to wrap it up and containerized it to then run in a web page. 
+        </span>
+    </div>
+    <a href="boolalg.html">Launch Boolean Algebra Program</a>
+    <div class="marquee">
+        <span>
+            Note - The Boolean Algebra Software needs a keyboard as input device
+            It will not work on mobile devices until a keyboard is attached. 
+        </span>
+    </div>
+</body>
+</html>
